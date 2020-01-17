@@ -1,0 +1,6 @@
+pip install git+https://github.com/pdftables/python-pdftables-api.git
+
+import pdftables_api
+
+c = pdftables_api.Client('api')
+c.xlsx('Document1.pdf', 'test.xlsx') 
